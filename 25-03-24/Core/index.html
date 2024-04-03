@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>perfil</title>
+    <link rel="stylesheet" href="style.css" />
+    <script href="script.js" def></script>
+  </head>
+  <body>
+    <div id="Barra">
+      <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Mi Perfil</a></li>
+        <li><a href="#">Encontrar Conexiones</a></li>
+        <li><a href="#">Cerrar Sesion</a></li>
+      </ul>
+    </div>
+    <div id="perfil">
+      <div class="barra"></div>
+      <img src="img/guisante.jpg" alt="" />
+      <div class="texto">
+        <h2>Guisante Planta</h2>
+        <p>
+          Vivo en El jardin <br />
+          Guisante|Protector de la casa <br />
+          Apasoniado por estar en el jardin protector de la casa y si me buscar
+          <br />
+          normalmente estar en la casa del webibabo especificamente en su jardin
+          <br />
+          ya que tengo que protegerlo de los zombis que quieren comerles esos
+          <br />
+          apetesibles sesos que tiene en su cabeza <br />
+        </p>
+        <button type="reset">Edit Profile</button>
+      </div>
+    </div>
+    <div id="solicitudes">
+      <div class="texto">
+        <h1>Tus Conexiones:<span id="connectionCount">510</span></h1>
+        <p>Nuez Gomez</p>
+        <p>Girasol Sanchez</p>
+        <img src="img/Nuez.jpg" alt="" class="perfiles">
+        <img src="img/girasol.jpg" alt="" class="perfiles">
+        <img src="img/chek.png" alt="" class="opciones">
+        <img src="img/NO.png" alt="" class="opciones">
+        <img src="img/chek.png" alt="" class="opciones2">
+        <img src="img/NO.png" alt="" class="opciones2">
+      </div>
+      <div>
+      <h1>Tus Conexiones: <span id="connectionCount">6</span></h1>
+      <h1>Contador de Solicitudes: <span id="requestCount">0</span></h1>
+
+      <button onclick="aceptarSolicitud()">Aceptar Solicitud</button>
+      <button onclick="rechazarSolicitud()">Rechazar Solicitud</button>
+
+      <div id="elementoAEliminar"></div>
+      <div id="solicitudPendiente"></div>
+
+      </div>
+    </div>
+    <div id="conexiones">
+        <h2 style="text-align: center;">Tus Conexiones (500+)</h2>
+        <p>Alfredo Alvarez</p>
+        <p>Elco Melon</p>
+        <p>Elna Rango</p>
+        <p>Elmetra Lleta</p>
+        <p>Elza pallo</p>
+        <p>Elbur Bugas</p>
+        <img src="img/1.jpg" alt="" class="perfiles">
+        <img src="img/2.jpg" alt="" class="perfiles">
+        <img src="img/3.jpg" alt="" class="perfiles">
+        <img src="img/4.jpg" alt="" class="perfiles">
+        <img src="img/5.jpg" alt="" class="perfiles">
+        <img src="img/6.jpg" alt="" class="perfiles">
+    </div>
+    <div id="education">
+        <div class="texto">
+        <h2>Education</h2>
+        <p>Codig Dojo-Bootcamp de Desarrollo Full Stock <br>
+           Dic 2019-Mar 2020 <br>
+           Triple cinturón negro en phyton, Mern y C#</p>
+        </div>
+    </div>
+    <script>
+      let connectionCounter = 6;
+      let requestCounter = 2;
+  
+      function eliminarElemento() {
+          let elemento = document.getElementById('elementoAEliminar');
+          if (elemento) {
+              elemento.parentNode.removeChild(elemento);
+          }
+      }
+  
+      function aceptarSolicitud() {
+          requestCounter--;
+          connectionCounter++;
+          actualizarContadores();
+      }
+  
+      function rechazarSolicitud() {
+          requestCounter--;
+          actualizarContadores();
+      }
+  
+      function activarModoOscuro() {
+          document.body.classList.add('dark-mode');
+      }
+  
+      function desactivarModoOscuro() {
+          document.body.classList.remove('dark-mode');
+      }
+  
+      function actualizarContadores() {
+          document.getElementById('connectionCount').textContent = connectionCounter;
+          document.getElementById('requestCount').textContent = requestCounter;
+      }
+  
+      actualizarContadores();
+  </script>
+  
+  </body>
+</html>

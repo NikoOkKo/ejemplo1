@@ -1,0 +1,37 @@
+h1{
+    color: darkmagenta;
+    font-size: 30px;
+}
+.primero{
+    color: cadetblue;
+}
+
+.quote p{
+    color: blue;
+}
+
+*{
+    background-color: rgb(241, 215, 215);|| a
+}
+.lorem p{
+    color: brown;
+}
+.hader > img{
+
+    height: 100px;
+
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+}
+
+*{
+    text-align: center;
+    font-weight: bolder;
+    font-weight: 900;
+    font-family:cursive;
+
+}
+
+

@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+body{
+    font-family: cursive;
+}
+#Network{
+    width: 100%;
+    height: 100px;
+    background:rgb(0, 0, 0);
+    display: flex;
+    position: relative;
+}
+#Network h1{
+    color: white;
+    position: absolute;
+    left: 900px;
+    top: 20px;
+}
+#perfil{
+    display: flex;
+    position: relative;
+    left: 30px;
+    top: 130px;
+    border: 2px black solid;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
+#perfil img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 70px;
+    top: 50px;
+    border-radius: 100%;
+    border: 2px black solid;
+}
+#perfil h2{
+    display: flex;
+    position: absolute;
+    left: 45px;
+    top: 300px;
+}
+#yourFeed{
+    font-size: 30px;
+    position: relative;
+    left: 390px;
+    top: -310px;
+    
+}
+#yourFeed .LinnO{
+    font-size: 20px;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 1500px;
+    height: 180px;
+    position: absolute;
+    top: 90px;
+    background: whitesmoke;
+}
+#yourFeed .LinnO h2{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+#yourFeed .LinnO p{
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+#yourFeed .LinnO .botones{
+    font-size: 20px;
+    position: absolute;
+    left: 1200px;
+    top: 100px;
+}
+#yourFeed .LinnO .botones button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(243, 255, 79);
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+#yourFeed .LinnO .botones p{
+    width: 200px;
+    position: absolute;
+    left: 45px;
+    top: 15px;
+}
+#yourFeed .LinaK{
+    font-size: 20px;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 1500px;
+    height: 180px;
+    position: absolute;
+    top: 290px;
+    background: whitesmoke;
+}
+#yourFeed .LinaK h2{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+#yourFeed .LinaK p{
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+#yourFeed .LinaK .botones{
+    font-size: 20px;
+    position: absolute;
+    left: 1200px;
+    top: 100px;
+}
+#yourFeed .LinaK .botones button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(243, 255, 79);
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+#yourFeed .LinaK .botones p{
+    width: 200px;
+    position: absolute;
+    left: 45px;
+    top: 15px;
+}
+#yourFeed .MateoH{
+    font-size: 20px;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 1500px;
+    height: 180px;
+    position: absolute;
+    top: 490px;
+    background: whitesmoke;
+}
+#yourFeed .MateoH h2{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+#yourFeed .MateoH p{
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+#yourFeed .MateoH .botones{
+    font-size: 20px;
+    position: absolute;
+    left: 1200px;
+    top: 100px;
+}
+#yourFeed .MateoH .botones button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(243, 255, 79);
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+#yourFeed .MateoH .botones p{
+    width: 200px;
+    position: absolute;
+    left: 45px;
+    top: 15px;
+}

@@ -1,0 +1,19 @@
+    button {
+
+    border: 10px dotted green;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+  }
+
+
+  p{
+  }
+  img{
+
+    border-radius: 50px;
+
+  }
+ * {
+    text-align: center;
+ }

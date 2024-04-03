@@ -1,0 +1,173 @@
+.menu {
+  list-style: none;
+  padding: 0px;
+  background-color: #2e4053;
+  width: 100vw;
+  position: relative;
+  top: -16px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+.menu li a:hover {
+  background-color: #626567;
+}
+#perfil {
+  background-color: rgb(247, 242, 242);
+  width: 600px;
+  height: 600px;
+  position: relative;
+  top: -18px;
+  left: 10px;
+}
+.barra {
+  background-color: rgb(192, 192, 192);
+  width: 100%;
+  height: 130px;
+  position: absolute;
+}
+#perfil img {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  border-radius: 100%;
+  width: 30%;
+  height: 30%;
+  border: 2px rgb(80, 80, 80) solid;
+}
+.texto {
+  position: absolute;
+  top: 250px;
+  left: 10px;
+}
+.texto h2 {
+  font-size: 30px;
+}
+.texto p {
+  font-size: 20px;
+}
+.texto button {
+  margin-top: 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+#solicitudes {
+  background-color: rgb(247, 242, 242);
+  width: 600px;
+  height: 200px;
+  position: relative;
+  top: -618px;
+  left: 650px;
+}
+#solicitudes .texto h2 {
+  position: relative;
+  top: -250px;
+  left: 130px;
+}
+#solicitudes .texto p {
+  position: relative;
+  top: -250px;
+  left: 200px;
+  margin: 30px;
+}
+#solicitudes .texto .perfiles {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: relative;
+  margin: 10px;
+  top: -375px;
+  left: 150px;
+  border-radius: 100%;
+}
+#solicitudes .texto .opciones {
+  width: 50px;
+  height: 50px;
+  display: inline;
+  position: relative;
+  margin: 10px;
+  top: -500px;
+  left: 370px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+#solicitudes .texto .opciones2 {
+  width: 50px;
+  height: 50px;
+  display: inline;
+  position: relative;
+  margin: 10px;
+  top: -440px;
+  left: 222px ;
+  border-radius: 100%;
+  cursor: pointer;
+}
+#conexiones{
+  background-color: rgb(247, 242, 242);
+  width: 600px;
+  height: 600px;
+  position: relative;
+  top: -600px;
+  left: 650px;
+}
+#conexiones .perfiles{
+  display: block;
+  border-radius: 100%;
+  margin: 30px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -530px;
+  left: 170px;
+  border: 2px black solid;
+}
+#conexiones p{
+  position: relative;
+  left: 200px;
+  margin: 70px;
+}
+#education{
+  background-color:rgb(247, 242, 242);
+  width: 600px;
+  height: 170px;
+  position: relative;
+  top: -800px;
+  left: 10px;
+}
+#education .texto{
+    top: -5px;
+    left: 30px;
+}
+.solicitud {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.btn-aceptar, .btn-rechazar {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  left: 380px;
+  top: 77px;
+}
+.btn-aceptar {
+  background-color: #4CAF50;
+  color: white;
+  margin-right: 5px;
+}
+.btn-rechazar {
+  background-color: #f44336;
+  color: white;
+}

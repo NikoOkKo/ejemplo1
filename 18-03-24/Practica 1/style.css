@@ -1,0 +1,42 @@
+
+#arriba{
+    display: flex;
+    margin-left: 50px;
+    
+}
+#centro{
+    display: flex;
+    margin-left: 80px;
+}
+
+#abajo{
+    display: flex;
+    margin-left: 50px;
+}
+*{
+    width: 100px;
+    padding: auto;
+
+}
+#box{
+    margin-top: -300px;
+}
+.amarillo{
+    background-color: bisque;
+    width: 500PX;
+    height: 100px;
+}
+.celeste{
+    background-color:aqua;
+    width: 500PX;
+    height: 100px;
+
+}
+.rojo{
+    background-color:rgb(17, 212, 60);
+    width: 500PX;
+    height: 100px;
+
+}
+
+

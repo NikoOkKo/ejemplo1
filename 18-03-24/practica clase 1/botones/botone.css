@@ -1,0 +1,22 @@
+.Buscar{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100px;
+    
+}
+.mas{
+    border-radius: 100%;
+    border-color: red;
+    background-color:red;
+    color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    cursor: cell;
+}
+.Crear_cuenta{
+    background-color: deepskyblue;
+    color:white;
+    border-color: deepskyblue;
+    cursor: alias;
+}

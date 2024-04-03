@@ -1,0 +1,91 @@
+.PrimeraParte{
+    background-color: rgb(214, 210, 210);
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+    top: -35px;
+    left: -6px;
+}
+.PrimeraParte h1{
+    background-color: rgb(255, 243, 210);
+    width: 400px;
+    height: 1000px;
+    text-align: center;
+    color:black;
+    position: absolute;
+    left: 730px;
+}
+.PrimeraParte .p1{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 770px;
+    top: 120px;
+    border: 5px black solid;
+}
+.PrimeraParte .p2{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 770px;
+    top: 540px;
+    border: 5px black solid;
+}
+.PrimeraParte .titulo1{
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    position: absolute;
+    left: 145px;
+    top: 20px;
+    font-size: 35px;
+    background-color: rgb(224, 230, 233);
+}
+.PrimeraParte .pr1{
+    text-align: center;
+    background-color: rgb(224, 230, 233);
+    font-size: 35px;
+    width: 700px;
+    position: absolute;
+    top: 85px;
+    left: 10px;
+}
+.PrimeraParte .pr2{
+    text-align: center;
+    background-color: rgb(224, 230, 233);
+    font-size: 35px;
+    width: 680px;
+    position: absolute;
+    top: 85px;
+    left: 1150px;
+}
+.PrimeraParte .titulo2{
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    position: absolute;
+    left: 1280px;
+    top: 20px;
+    font-size: 35px;
+    background-color: rgb(224, 230, 233);
+}
+.SegundaParte{
+    background-color: #5D6D7E;
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+    top: -40px;
+    left: -7px;
+}
+.SegundaParte .centro{
+    position: absolute;
+    left: 730px;
+    background-color: rgb(255, 243, 210) ;
+    width: 400px;
+    height: 1000px;
+
+}

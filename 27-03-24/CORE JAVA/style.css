@@ -1,0 +1,92 @@
+#parteDeArriba {
+  background-color: rgb(203, 230, 230);
+  width: 1500px;
+  height: 100px;
+  position: relative;
+  top: -10px;
+  left: 200px;
+}
+#parteDeArriba h1 {
+  font-family: cursive;
+  position: absolute;
+  left: 30px;
+}
+#parteDeArriba input {
+  width: 900px;
+  height: 20px;
+  position: absolute;
+  top: 35px;
+  left: 300px;
+}
+#parteDeArriba button {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(78, 194, 248);
+  color: white;
+  position: absolute;
+  top: 35px;
+  left: 1300px;
+}
+#gatoAtrigado {
+  width: 1000px;
+  height: 200px;
+  border: 2px solid black;
+  position: relative;
+  left: 200px;
+}
+#gatoAtrigado .texto {
+  position: absolute;
+  left: 10px;
+}
+#gatoAtrigado button {
+  background-color: rgb(247, 225, 192);
+  position: absolute;
+  top: 170px;
+  left: 10px;
+  border-radius: 10px;
+}
+#goldenRevier {
+  width: 1000px;
+  height: 200px;
+  border: 2px solid black;
+  position: relative;
+  left: 200px;
+  top: 20px;
+}
+#goldenRevier .texto {
+  margin-left: 10px;
+}
+#goldenRevier button {
+  background-color: rgb(247, 225, 192);
+  position: absolute;
+  top: 170px;
+  left: 10px;
+  border-radius: 10px;
+}
+#agregarDefinicion {
+  border: 2px solid black;
+  width: 500px;
+  height: 100px;
+  position: relative;
+  left: 1220px;
+  top: -408px;
+}
+#agregarDefinicion h2 {
+  position: absolute;
+  left: 10px;
+}
+#agregarDefinicion button {
+  color: azure;
+  background-color: rgb(24, 140, 55);
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  top: 60px;
+  left: 10px;
+
+
+}
+
+
+
+

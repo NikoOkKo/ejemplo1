@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Tiempo</title>
+</head>
+<body>
+    <h1>Mostrar Tiempo</h1>
+    <div id="tiempoActual"></div>
+    <button id="otraCiudad" value="Nueva York">Nueva York</button>
+    <button id="otraCiudad" value="Londres">Londres</button>
+    <button id="otraCiudad" value="Tokio">Tokio</button>
+    
+    <script>
+        function obtenerTiempo(ciudad) {
+            const apiKey = 'TU_API_KEY'; // Reemplaza 'TU_API_KEY' con tu clave de API de OpenWeatherMap
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`;
+
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    const temperatura = data.main.temp;
+                    const descripcion = data.weather[0].description;
+                    const tiempoActual = document.getElementById('tiempoActual');
+                    tiempoActual.textContent = `El tiempo en ${ciudad}: ${temperatura}°C, ${descripcion}`;
+                })
+                .catch(error => {
+                    console.log('Error al obtener el tiempo:', error);
+                });
+        }
+
+        document.querySelectorAll('#otraCiudad').forEach(item => {
+            item.addEventListener('click', event => {
+                const ciudad = event.target.value;
+                obtenerTiempo(ciudad);
+            });
+        });
+
+        window.onload = function() {
+            obtenerTiempo('Nueva York'); // Reemplaza 'NOMBRE_DE_LA_CIUDAD' con el nombre de la ciudad que deseas mostrar inicialmente
+        };
+    </script>
+</body>
+</html>
